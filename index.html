@@ -15,8 +15,10 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,22 +46,21 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="">
         <span>Craft Kids Club</span>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#about">¿Cómo funciona?</a></li>
-          <li><a class="nav-link scrollto" href="#services">Suscripciones</a></li>
+          <li><a class="nav-link scrollto" href="#values">¿Cómo funciona?</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Suscripciones</a></li>
           <!-- <li><a class="nav-link scrollto" href="#portfolio">Opiniones</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="#team">Contacto</a></li> -->
           <!-- <li><a href="blog.html">Blog</a></li> -->
           <li class="dropdown"><a href="#"><span>Ellos dicen</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Opiniones</a></li>
-              <li class="dropdown"><a href="#"><span>Galeria</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a href="#testimonials">Opiniones</a></li>
+              <li class="dropdown"><a href="#portfolio"><span>Galeria</span> <i class="bi bi-chevron-right"></i></a>
                 <!-- <ul> -->
                   <!-- <li><a href="#">Deep Drop Down 1</a></li> -->
                   <!-- <li><a href="#">Deep Drop Down 2</a></li> -->
@@ -87,22 +88,20 @@
 
     <div class="container">
       <div class="row">
-	    <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="#" class="img-fluid" alt="">
-        </div>
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">APRENDIZAJE,
-		  <br>MAGIA Y RISAS</br></h1>
-          <h3 data-aos="fade-up" data-aos-delay="400">No te pierdas de momentos únicos en
-		  <br>familia con tu caja craft</br></h3>
+          <h1 data-aos="fade-up">APRENDIZAJE,<br>MAGIA Y RISAS</br></h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">No te pierdas de momentos únicos<br>en familia con tu caja craft</br></h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>¡Pedí la tuya!</span>
-                <i class="bi bi-arrow-right"></i>
+              <a href="detalle.html" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>¡PEDÍ LA TUYA!</span>
+                <!-- <i class="bi bi-arrow-right"></i> -->
               </a>
             </div>
           </div>
+        </div>
+		<div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/hero.png" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -133,7 +132,7 @@
             <div class="box" data-aos="fade-up" data-aos-delay="400">
               <img src="assets/img/values-2.png" class="img-fluid" alt="">
               <h3>Recibí</h3>
-              <p>Esperá tu caja en casa con envío gratis dentro de los primeros 4 días del mes</p>
+              <p>Esperá tu caja en casa con envío gratis dentro<br>de los primeros 4 días del mes</br></p>
             </div>
           </div>
 
@@ -303,7 +302,7 @@
               <div class="row align-self-center gy-4">
 
                 <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="ri-line-chart-line"></i>
+                  <img class="icono" src="assets/img/insentiva.png" alt="texto">
                   <div>
                     <h4>Incentiva la creatividad</h4>
                     <p>Actividades preparadas para el
@@ -312,7 +311,7 @@
                 </div>
 
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="ri-stack-line"></i>
+                  <img class="icono" src="assets/img/personaliza.png" alt="texto">
                   <div>
                     <h4>Personalizable para cada niño</h4>
                     <p>Variedades según la edad e
@@ -321,7 +320,7 @@
                 </div>
 
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="ri-brush-4-line"></i>
+                  <img class="icono" src="assets/img/crea.png" alt="texto">
                   <div>
                     <h4>Crea momentos inolvidables</h4>
                     <p>Planeada para compartir con
@@ -330,7 +329,7 @@
                 </div>
 
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="ri-magic-line"></i>
+                  <img class="icono" src="assets/img/aprende.png" alt="texto">
                   <div>
                     <h4>Pensada para el apredizaje</h4>
                     <p>Creada por psicopedagogas y
@@ -365,31 +364,41 @@
 
   </section><!-- End Caracteristicas - Features Section -->
   
+  <!-- ======= Fondo ======= -->
+  <!-- <section class="01" style="width: cover; height: 200px;"> -->
+  
+  <!-- </section> -->
+  
  <!-- ======= Precios - Pricing Section ======= -->
-  <section id="pricing" class="pricing">
+  <section id="pricing" class="pricing" style="width: 1920; height: 900px;"> 
 
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
+		  <h2 style="color: rgba(0, 0, 0, 0);">.</h2>
+		  <h2 style="color: rgba(0, 0, 0, 0);">.</h2>
           <h2>Elegí tu suscripción</h2>
           <p>3 opciones para compartir en familia</p>
         </header>
-
+		
         <div class="row gy-4" data-aos="fade-left">
 
-          <div class="col-sm-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
-              <h3 style="color: #f0acb9;">Suscripcón standar</h3>
-              <div class="price"><sup>$</sup>1300<span> / mo</span></div>
               <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+			  <h3 style="color: #f0acb9;">X 1 MES</h3>
+              <div class="price">$1300</div>
               <ul>
-                <li>Suscrpción por 1 mes</li>
-                <li>Envío gratis</li>
-                <li>Materiales para el mes</li>
-                <li>Sorpresas</li>
+			    <li>Envío gratis
+				<br>Materiales para el mes
+				<br>Sorpresas</br></li>
+                <!-- <li>Suscrpción por 1 mes</li> -->
+                <!-- <li>Envío gratis</li> -->
+                <!-- <li>Materiales para el mes</li> -->
+                <!-- <li>Sorpresas</li> -->
                 <!-- <li class="na">Massa ultricies mi</li> -->
               </ul>
-              <a href="#" class="btn-buy">¡Pedí la tuya!</a>
+              <a href="detalle.html" class="btn-buy">¡Pedí la tuya!</a>
             </div>
           </div>
 
@@ -410,35 +419,40 @@
             <!-- </div> -->
           <!-- </div> -->
 
-          <div class="col-sm-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
-              <h3 style="color: #ffc623;">Suscripción Plus</h3>
-              <div class="price"><sup>$</sup>1000<span> / mo</span></div>
-              <img src="assets/img/pricing-business.png" class="img-fluid" alt="">
+			  <img src="assets/img/pricing-business.png" class="img-fluid" alt="">
+			  <h3 style="color: #ffc623;">X 6 MESES</h3>
+			  <div class="price">$1200</div>
               <ul>
-                <li>Suscrpción por 6 meses</li>
-                <li>Envío gratis</li>
-                <li>Materiales para el mes</li>
-                <li>Sorpresas</li>
+                <li>Envío gratis
+				<br>Materiales para el mes
+				<br>Sorpresas</br></li>
+                <!-- <li>Materiales para el mes</li> -->
+                <!-- <li>Sorpresas</li> -->
+                <!-- <li>Pharetra massa</li> -->
                 <!-- <li>Massa ultricies mi</li> -->
               </ul>
-              <a href="#" class="btn-buy">¡Pedí la tuya!</a>
+			  <a href="detalle.html" class="btn-buy">¡Pedí la tuya!</a>
             </div>
           </div>
 
-          <div class="col-sm-4" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
-              <h3 style="color: #54c5ff;">Suscripción Premiun</h3>
-              <div class="price"><sup>$</sup>1200<span> / mo</span></div>
               <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt="">
+			  <h3 style="color: #54c5ff;">X 1 AÑO</h3>
+              <div class="price">$1200</div>
               <ul>
-                <li>Suscrpción por 1 año</li>
-                <li>Envío gratis</li>
-                <li>Materiales para el mes</li>
-                <li>Sorpresas</li>
+			    <li>Envío gratis
+				<br>Materiales para el mes
+				<br>Sorpresas</br></li>
+                <!-- <li>Envío gratis</li> -->
+                <!-- <li>Materiales para el mes</li> -->
+                <!-- <li>Sorpresas</li> -->
+                <!-- <li>Sorpresas</li> -->
                 <!-- <li>Massa ultricies mi</li> -->
               </ul>
-              <a href="#" class="btn-buy">¡Pedí la tuya!</a>
+              <a href="detalle.html" class="btn-buy">¡Pedí la tuya!</a>
             </div>
           </div>
 
@@ -447,6 +461,11 @@
       </div>
 
    </section><!-- End Precios - Pricing Section -->
+   
+  <!-- ======= Fondo ======= --> 
+  <!-- <section class="02" style="background: #000; width: cover; height: 350px;"> -->
+  
+  <!-- </section> -->
    
   <!-- ======= Equipo - Team Section ======= -->
    <section id="team" class="team">
@@ -473,7 +492,7 @@
               </div>
               <div class="member-info">
                 <h4>Lucía Mallea</h4>
-                <span>Dueña</span>
+                <span>Fundadora</span>
                 <p>Emprendedora y soñadora. Lanzó Craft Kids Club para dar a las familias momentos para compartir</p>
               </div>
             </div>
@@ -546,7 +565,7 @@
    </section><!-- End Equipo - Team Section -->
    
   <!-- ======= Testimonials Section ======= -->
-   <section id="testimonials" class="testimonials">
+   <section id="testimonials" class="testimonials" style="width: 1920; height: 658,19px;">
 
       <div class="container" data-aos="fade-up">
 
@@ -554,21 +573,24 @@
           <!-- <h2>Testimonials</h2> -->
           <!-- <p>What they are saying about us</p> -->
         <!-- </header> -->
-
+        <header class="section-header">
+          <h2 style="color: rgba(0, 0, 0, 0);">.</h2>
+          <p style="color: rgba(0, 0, 0, 0);">Juntos para ustedes</p>
+        </header>
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="200">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
+                <!-- <div class="stars"> -->
+                  <!-- <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> -->
+                <!-- </div> -->
                 <p>
-                  Incríble, Julián quedó encantado con todas las actividades y los papis co nos quedamos fuera... Jajaja
+                  Incríble, Julián quedó encantado con todas las actividades de #craftkidsclub y los papis co nos quedamos fuera... Jajaja
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Jorgelina</h3>
+                  <h3>@jor_menna</h3>
                   <h4>Mamá de Julián</h4>
                 </div>
               </div>
@@ -576,15 +598,15 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
+                <!-- <div class="stars"> -->
+                  <!-- <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> -->
+                <!-- </div> -->
                 <p>
-                 A Nayla le facinó. ¡Ella feliz con las actividades y sus regalos sorpresa! Yo super agradecido, ya a la espera de la siguiente.
+                 #craftkidsclub muchas gracias! A Nayla le facinó. ¡Ella feliz con las actividades y sus regalos sorpresa! Yo super agradecido, ya a la espera de la siguiente.
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Facundo</h3>
+                  <h3>@facundo.sr</h3>
                   <h4>Papá de Nayla</h4>
                 </div>
               </div>
@@ -592,15 +614,15 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
+                <!-- <div class="stars"> -->
+                  <!-- <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> -->
+                <!-- </div> -->
                 <p>
-                  Muy Buena compra si querés pasar más tiempo de calidad con el peque de la casa.
+                  Muy Buena compra si querés pasar más tiempo de calidad con el peque de la casa. #CrafKidsClub AMAMOS!
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Pablo</h3>
+                  <h3>@pablojouce</h3>
                   <h4>Papá de Oriana</h4>
                 </div>
               </div>
@@ -608,32 +630,32 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
+                <!-- <div class="stars"> -->
+                  <!-- <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> -->
+                <!-- </div> -->
                 <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  Sebas es el sobri mas feliz del mundo con su #craftkidsclub. Está super cargada de materiales de excelente calidad y actividades muy entretenidas!
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
+                  <h3>@carotere.02</h3>
+                  <h4>Tia de Sebas</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
+                <!-- <div class="stars"> -->
+                  <!-- <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> -->
+                <!-- </div> -->
                 <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  ¡Las cajas #CraftKidsClub tiene toda la onda! Agus y yo pasamos un lindo rato juntas esta semana completando las actividades y nos encanto... ¡Ella quiere (y yo tambien) que llegue ya la siguente!
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
+                  <h3>@dani_bona</h3>
+                  <h4>Mamá de Agus</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -657,21 +679,21 @@
 		  
 		 <div class="profile mt-auto">
           <h3></h3>
-          <h5>Publicá en redes unsando nuestros hashtag y sé
+          <h5>Publicá en redes unsando #CrafKidsClub y sé
 		  <br>parte de esta gran familia</br></h5>
          </div>
         </header>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">#CrafKidsClub</li>
-              <li data-filter=".filter-app">#familiaCraft</li>
-              <li data-filter=".filter-card">#MagiaCKC</li>
-              <li data-filter=".filter-web">#momentoCKC</li>
-            </ul>
-          </div>
-        </div>
+        <!-- <div class="row" data-aos="fade-up" data-aos-delay="100"> -->
+          <!-- <div class="col-lg-12 d-flex justify-content-center"> -->
+            <!-- <ul id="portfolio-flters"> -->
+              <!-- <li data-filter="*" class="filter-active">#CrafKidsClub</li> -->
+              <!-- <li data-filter=".filter-app">#familiaCraft</li> -->
+              <!-- <li data-filter=".filter-card">#MagiaCKC</li> -->
+              <!-- <li data-filter=".filter-web">#momentoCKC</li> -->
+            <!-- </ul> -->
+          <!-- </div> -->
+        <!-- </div> -->
 
         <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -1160,29 +1182,29 @@
             <div class="row gy-4">
               <div class="col-md-6">
                 <div class="info-box">
-                  <i class="bi bi-geo-alt"></i>
+                  <img src= "assets/img/ubicacion.png" alt="texto">
                   <h3>Oficinas</h3>
                   <p>Av. Crámer 4587<br>Belgrano, C.A.B.A.</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
-                  <i class="bi bi-telephone"></i>
+                  <img src= "assets/img/telefono.png" alt="texto">
                   <h3>Telefono</h3>
                   <p>+54 4258 6954<br>+54 4268 9647</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
-                  <i class="bi bi-envelope"></i>
+                  <img src= "assets/img/email.png" alt="texto">
                   <h3>Email</h3>
                   <p>info@craftkidsclub.com<br>Reclamos@craftkidsclub.com</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
-                  <i class="bi bi-clock"></i>
-                  <h3>Horario de atención</h3>
+                  <img src= "assets/img/horario.png" alt="texto">
+                  <h3>Horarios</h3>
                   <p>Lunes - Viernes<br>09:00hs. - 18:00hs.</p>
                 </div>
               </div>
@@ -1255,10 +1277,10 @@
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/logo.png" alt="">
+              <!-- <img src="assets/img/logo.png" alt=""> -->
               <span>Craft Kids Club</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p> -->
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
